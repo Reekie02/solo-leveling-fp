@@ -1,0 +1,806 @@
+.system-form {
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    backdrop-filter: blur(10px);
+}
+
+.system-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 12px;
+    align-items: start;
+}
+
+@media (max-width: 520px) {
+    .system-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+}
+
+.system-label {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.system-field {
+    position: relative;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    overflow: hidden;
+}
+
+.system-input {
+    width: 100%;
+    padding: 12px 14px;
+    color: rgba(255, 255, 255, 0.92);
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 0.98rem;
+}
+
+.system-input::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.system-underline {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 8px;
+    height: 1px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.10);
+    transform-origin: left;
+}
+
+.system-field:focus-within {
+    border-color: rgba(255, 255, 255, 0.22);
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.06),
+        0 0 28px rgba(255, 255, 255, 0.12),
+        inset 0 0 18px rgba(255, 255, 255, 0.08);
+}
+
+.system-field:focus-within .system-underline {
+    background: rgba(255, 255, 255, 0.26);
+    animation: underlineScan 520ms ease-out both;
+}
+
+@keyframes underlineScan {
+    from {
+        transform: scaleX(0.15);
+    }
+
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+.system-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 4px 2px 0;
+}
+
+.system-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.9rem;
+}
+
+.system-check input {
+    accent-color: rgba(255, 255, 255, 0.8);
+}
+
+.system-check--wide {
+    padding: 6px 2px 0;
+}
+
+.system-link {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.78);
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.system-link:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.system-submit {
+    position: relative;
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06));
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: inset 0 0 14px rgba(255, 255, 255, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.system-submit__text {
+    position: relative;
+    z-index: 2;
+}
+
+.system-submit__scan {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.18) 50%, transparent 100%);
+}
+
+.system-submit__glint {
+    position: absolute;
+    inset: -40% -60%;
+    background: radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.22), transparent 55%);
+    opacity: 0;
+    transform: rotate(12deg);
+}
+
+.system-submit:hover {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.12));
+    border-color: rgba(255, 255, 255, 0.45);
+    box-shadow:
+        0 0 26px rgba(255, 255, 255, 0.20),
+        inset 0 0 20px rgba(255, 255, 255, 0.30);
+    transform: translateY(-1px);
+}
+
+.system-submit:hover .system-submit__scan {
+    opacity: 1;
+    animation: systemScan 0.6s linear;
+}
+
+.system-submit:hover .system-submit__glint {
+    opacity: 1;
+    animation: glintIn 0.6s ease-out both;
+}
+
+.system-submit:active {
+    transform: translateY(1px) scale(0.985);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.18), inset 0 0 24px rgba(0, 0, 0, 0.35);
+}
+
+.system-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@keyframes systemScan {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes glintIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.system-submit.is-loading .system-submit__scan {
+    opacity: 1;
+    animation: systemScan 0.8s linear infinite;
+}
+
+.system-submit.is-sent {
+    border-color: rgba(255, 255, 255, 0.55);
+    box-shadow:
+        0 0 34px rgba(255, 255, 255, 0.20),
+        inset 0 0 26px rgba(255, 255, 255, 0.22);
+}
+
+.system-hint {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.70);
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    padding: 4px 2px 0;
+}
+
+.system-hint .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 14px rgba(255, 255, 255, 0.18);
+}
+
+.system-hint.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.system-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.system-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(0, 0, 0, 0.14);
+    color: rgba(255, 255, 255, 0.78);
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.72rem;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    transition: border-color .2s ease, background .2s ease, box-shadow .2s ease;
+}
+
+.system-toggle--wide {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.system-toggle input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.system-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.08);
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.system-box::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+    border-right: 2px solid rgba(255, 255, 255, 0.92);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.92);
+    transform: rotate(35deg);
+    opacity: 0;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.18));
+}
+
+.system-toggle::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(255, 255, 255, 0.12) 50%,
+            transparent 100%);
+    opacity: 0;
+    transform: translateY(-120%);
+}
+
+.system-toggle:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.system-toggle input:focus-visible+.system-box {
+    outline: 2px solid rgba(255, 255, 255, 0.25);
+    outline-offset: 3px;
+}
+
+.system-toggle input:checked~.system-box {
+    border-color: rgba(255, 255, 255, 0.42);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow:
+        0 0 18px rgba(255, 255, 255, 0.18),
+        inset 0 0 18px rgba(255, 255, 255, 0.16);
+}
+
+.system-toggle input:checked~.system-box::after {
+    opacity: 1;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    will-change: transform;
+}
+
+.system-toggle input:checked~.system-box {
+    transform-origin: center;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    transform-origin: left;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    transform: translateZ(0);
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation-fill-mode: both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation-name: sysTogglePop;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation-duration: 220ms;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation-timing-function: ease-out;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation-delay: 0ms;
+}
+
+.system-toggle input:checked~.system-box::after {
+    animation: sysTickIn 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box {
+    animation: sysBoxGlow 420ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+/* scanline solo quando attivi */
+.system-toggle input:checked~.system-toggle__text~.system-cursor {
+    display: none;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    position: relative;
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    letter-spacing: 0.18em;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text~.system-submit__scan {
+    display: none;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0.10);
+}
+
+.system-toggle input:checked~.system-box~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+/* scanline play */
+.system-toggle input:checked~.system-toggle__text {
+    position: relative;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    position: relative;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-box {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-box {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-box {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-box {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    z-index: 2;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-toggle__text,
+.system-toggle input:checked~.system-box {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+/* vero scanline */
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+/* scanline animazione */
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+.system-toggle input:checked~.system-box,
+.system-toggle input:checked~.system-toggle__text {
+    animation: sysTogglePop 220ms ease-out both;
+}
+
+/* animazioni */
+@keyframes sysTogglePop {
+    from {
+        transform: translateY(0);
+    }
+
+    45% {
+        transform: translateY(-1px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes sysTickIn {
+    from {
+        opacity: 0;
+        transform: rotate(35deg) scale(0.85);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(35deg) scale(1);
+    }
+}
+
+@keyframes sysBoxGlow {
+    0% {
+        box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.08);
+    }
+
+    50% {
+        box-shadow: 0 0 18px rgba(255, 255, 255, 0.16), inset 0 0 16px rgba(255, 255, 255, 0.14);
+    }
+
+    100% {
+        box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.10);
+    }
+}
+
+/* ERROR STATES */
+.system-input.system-input-error {
+    color: #ff4d4d;
+}
+
+.system-field:has(.system-input-error) {
+    border-color: rgba(255, 77, 77, 0.5);
+    box-shadow:
+        0 0 0 1px rgba(255, 77, 77, 0.2),
+        inset 0 0 14px rgba(255, 77, 77, 0.1);
+    animation: errorShake 0.4s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+.system-field:has(.system-input-error) .system-underline {
+    background: #ff4d4d;
+    opacity: 1;
+}
+
+.system-error-msg {
+    color: #ff4d4d;
+    font-size: 0.70rem;
+    letter-spacing: 0.1em;
+    margin-top: 6px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.system-error-msg::before {
+    content: "!";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ff4d4d;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+@keyframes errorShake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.system-toggle.system-toggle-error {
+    border-color: rgba(255, 77, 77, 0.5);
+    background: rgba(255, 77, 77, 0.05);
+    animation: errorShake 0.4s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+.system-toggle.system-toggle-error .system-box {
+    border-color: #ff4d4d;
+}
+
+.system-toggle.system-toggle-error .system-toggle__text {
+    color: #ff4d4d;
+}

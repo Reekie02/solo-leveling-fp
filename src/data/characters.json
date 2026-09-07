@@ -1,0 +1,1503 @@
+{
+    "jinwoo": {
+        "name": "Sung Jin-Woo",
+        "title": "Shadow Monarch",
+        "koreanName": "(성진우)",
+        "color": "#1c255e",
+        "accentColor": "#0f1338",
+        "backgroundKey": "jinwoo",
+        "affiliation": {
+            "faction": "Shadow Army",
+            "align": "Independent",
+            "notes": "An ever-growing legion of shadows forged from fallen hunters, fearsome beasts, and defeated monarchs. Each shadow is eternally bound by unwavering loyalty and absolute obedience to the Shadow Monarch, existing solely to serve his will."
+        },
+        "about": {
+            "desc1": "Is the protagonist of Solo Leveling. He was previously known as the World's Weakest Hunter and delved down the path of becoming the World's Strongest Hunter after he was Reawakened and became a player.",
+            "desc2": "Jin woo was Reawakened as a player after surviving the Cartenon Temple and completing the secret quest \"Courage of the Weak\". The mysterious System has allowed Jin Woo to limitless level up and increases his strength, unlike all hunters, who are unable to increase their strength unlsess reawakened."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Shadow Monarch",
+            "stats": {
+                "strength": 92,
+                "agility": 88,
+                "perception": 84,
+                "vitality": 90,
+                "intelligence": 86
+            },
+            "notes": "Status values are constantly evolving through combat experience, shadow extraction and system-driven growth."
+        },
+        "relationships": [
+            {
+                "name": "Cha Hae-In",
+                "role": "S-Rank Hunter",
+                "type": "Ally",
+                "affinity": 86
+            },
+            {
+                "name": "Yoo Jin-Ho",
+                "role": "Vice Guild Master",
+                "type": "Companion",
+                "affinity": 92
+            },
+            {
+                "name": "Go Gun-Hee",
+                "role": "Association Chairman",
+                "type": "Respected",
+                "affinity": 78
+            },
+            {
+                "name": "Shadow Army",
+                "role": "Summoned Legion",
+                "type": "Bound",
+                "affinity": 100
+            },
+            {
+                "notes": "Relationship data is derived from trust, shared battles and system-recognized bonds."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Shadow Extraction",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Extracts a shadow from a fallen target and adds it to the Shadow Army."
+            },
+            {
+                "name": "Shadow Exchange",
+                "type": "Skill",
+                "rank": "A",
+                "cooldown": "30s",
+                "desc": "Instantly swaps positions with an active shadow within range."
+            },
+            {
+                "name": "Ruler’s Authority",
+                "type": "Ability",
+                "rank": "S",
+                "cooldown": "12s",
+                "desc": "Manipulates objects with invisible force, allowing control and crushing power."
+            },
+            {
+                "name": "Stealth",
+                "type": "Passive",
+                "rank": "A",
+                "cooldown": "—",
+                "desc": "Suppresses presence and sound, making detection significantly harder."
+            },
+            {
+                "notes": "Skills evolve with level, combat experience and shadow mastery. Higher ranks grant stronger effects and reduced limitations."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Beru",
+                "role": "General",
+                "rank": "S",
+                "state": "Active"
+            },
+            {
+                "name": "Igris",
+                "role": "Knight Commander",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Tusk",
+                "role": "High Orc Mage",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Iron",
+                "role": "Tank",
+                "rank": "B",
+                "state": "In Reserve"
+            },
+            {
+                "name": "Tank",
+                "role": "Beast",
+                "rank": "B",
+                "state": "In Reserve"
+            },
+            {
+                "notes": "Shadows respond instantly to commands. Active troops remain ready for combat, while reserves can be summoned when needed."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Demon King’s Longsword",
+                "type": "Weapon",
+                "rarity": "S",
+                "bonus": "+Attack Power",
+                "desc": "A heavy blade infused with demonic mana. Strikes carry overwhelming force."
+            },
+            {
+                "name": "Knight Killer Dagger",
+                "type": "Weapon",
+                "rarity": "A",
+                "bonus": "+Critical Damage",
+                "desc": "A sharp dagger built for swift kills. Ideal for close-range finishing blows."
+            },
+            {
+                "name": "Shadow Monarch’s Cloak",
+                "type": "Equipment",
+                "rarity": "S",
+                "bonus": "+Stealth / +Defense",
+                "desc": "A cloak woven from shadow essence, dampening presence and absorbing damage."
+            },
+            {
+                "name": "Mana Resistance Ring",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Mana Resistance",
+                "desc": "Reduces the impact of mana-based attacks and weakens curse effects."
+            },
+            {
+                "notes": "Equipped items enhance combat efficiency. Higher-rank gear provides stronger effects and improved synergy with shadow abilities."
+            }
+        ]
+    },
+    "chaehaein": {
+        "name": "Cha Hae-In",
+        "koreanName": "(차해인)",
+        "title": "S-Rank Hunter",
+        "color": "#6B5A1E",
+        "accentColor": "#3F3312",
+        "backgroundKey": "chaehaein",
+        "affiliation": {
+            "faction": "Hunters Guild",
+            "align": "Independent",
+            "badge": "Hunters",
+            "notes": "A prestigious guild composed of elite hunters tasked with protecting humanity from dungeon threats and magical disasters."
+        },
+        "about": {
+            "desc1": "is the Vice-Guild Master of the Hunters Guild and the sword woman of the main raiding party. She is the 9th ranked Hunter in South Korea; also being its only female S-Rank Hunter.",
+            "desc2": "Hae in was a direct partecipant of the 4th Jeju Island Reclamation Raid  team. She possesses the unique ability of mana smell and dislikes the smell of hunters except for Sung Jin Woo."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Swordswoman",
+            "stats": {
+                "strength": 86,
+                "agility": 94,
+                "perception": 90,
+                "vitality": 82,
+                "intelligence": 84
+            },
+            "notes": "Status values reflect elite hunter training and constant field experience. Agility and perception are her strongest traits, enabling high-speed precision strikes."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Shadow Monarch",
+                "type": "Ally",
+                "affinity": 88
+            },
+            {
+                "name": "Go Gun-Hee",
+                "role": "Association Chairman",
+                "type": "Respected",
+                "affinity": 80
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Official Authority",
+                "type": "Bound",
+                "affinity": 72
+            },
+            {
+                "name": "White Tiger Guild",
+                "role": "S-Rank Network",
+                "type": "Neutral",
+                "affinity": 66
+            },
+            {
+                "notes": "Relationship data is derived from trust, shared missions and system-recognized bonds."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Sword Dance",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "18s",
+                "desc": "A rapid multi-strike sequence designed to break defenses and overwhelm targets."
+            },
+            {
+                "name": "Keen Sense",
+                "type": "Passive",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Greatly enhances situational awareness, improving reaction timing and threat detection."
+            },
+            {
+                "name": "Piercing Slash",
+                "type": "Skill",
+                "rank": "A",
+                "cooldown": "12s",
+                "desc": "A focused thrust that aims for weak points, dealing heavy damage through armor."
+            },
+            {
+                "name": "Counter Step",
+                "type": "Ability",
+                "rank": "A",
+                "cooldown": "10s",
+                "desc": "A short burst reposition that enables clean counters and immediate retaliation."
+            },
+            {
+                "notes": "Skills evolve with training, combat tempo and mastery. Higher ranks grant sharper execution windows and stronger finishing potential."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Assault Unit",
+                "role": "Frontline Hunters",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Support Unit",
+                "role": "Healers / Buffers",
+                "rank": "B",
+                "state": "In Reserve"
+            },
+            {
+                "name": "Recon Unit",
+                "role": "Scouts",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "notes": "Squad composition varies by raid type. Recon gathers intel first, then assault pushes while support stabilizes the formation."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "High-Grade Hunter Sword",
+                "type": "Weapon",
+                "rarity": "S",
+                "bonus": "+Attack Speed / +Precision",
+                "desc": "A lightweight blade tuned for fast, accurate cuts and rapid combo chaining."
+            },
+            {
+                "name": "Reinforced Combat Suit",
+                "type": "Equipment",
+                "rarity": "A",
+                "bonus": "+Defense / +Mobility",
+                "desc": "Balanced protection without sacrificing movement, ideal for high-speed engagements."
+            },
+            {
+                "name": "Stamina Ring",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Stamina Recovery",
+                "desc": "Improves endurance during prolonged fights and repeated burst movements."
+            },
+            {
+                "name": "Focus Charm",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Concentration",
+                "desc": "Helps maintain composure and timing under pressure in chaotic raid scenarios."
+            },
+            {
+                "notes": "Equipped items emphasize speed, precision and survivability. Gear synergy improves consistency in close-range duels and boss encounters."
+            }
+        ]
+    },
+    "yoojinho": {
+        "name": "Yoo Jin-Ho",
+        "title": "Vice Guild Master",
+        "koreanName": "(유진호)",
+        "color": "#3A2E25",
+        "accentColor": "#241A14",
+        "backgroundKey": "yoojinho",
+        "affiliation": {
+            "faction": "Ahjin Guild",
+            "align": "Loyal",
+            "badge": "Ahjin",
+            "notes": "A trusted companion and the acting vice guild master of the Ahjin Guild. Known for unwavering loyalty, logistical support and coordination that keeps operations running smoothly."
+        },
+        "about": {
+            "desc1": "is a close ally of Sung Jin-Woo and the Vice Guild Master of the Ahjin Guild. Though not among the strongest hunters, he stands out for his courage, sincerity and absolute dedication to Jin-Woo.",
+            "desc2": "Jin-Ho often serves as the organizer behind raids and guild activity, handling communication, resources and support. He continues to grow through real combat experience and responsibility rather than raw power."
+        },
+        "status": {
+            "level": "???",
+            "rank": "D",
+            "class": "Support / Coordinator",
+            "stats": {
+                "strength": 28,
+                "agility": 42,
+                "perception": 46,
+                "vitality": 34,
+                "intelligence": 78
+            },
+            "notes": "Status values emphasize leadership, coordination and decision-making under pressure. While combat stats remain modest, his tactical awareness and reliability scale with experience."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Guild Master / Shadow Monarch",
+                "type": "Bound",
+                "affinity": 98
+            },
+            {
+                "name": "Cha Hae-In",
+                "role": "S-Rank Hunter",
+                "type": "Respected",
+                "affinity": 72
+            },
+            {
+                "name": "Ahjin Guild",
+                "role": "Guild Members",
+                "type": "Ally",
+                "affinity": 85
+            },
+            {
+                "name": "Yoo Myung-Han",
+                "role": "Family",
+                "type": "Neutral",
+                "affinity": 70
+            },
+            {
+                "notes": "Relationship data is derived from trust, long-term cooperation and system-recognized bonds formed through shared risk and responsibility."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Field Coordination",
+                "type": "Skill",
+                "rank": "B",
+                "cooldown": "20s",
+                "desc": "Improves team response time by issuing rapid callouts and task assignments during chaotic encounters."
+            },
+            {
+                "name": "Resource Management",
+                "type": "Passive",
+                "rank": "A",
+                "cooldown": "—",
+                "desc": "Optimizes supplies, recovery items and planning to reduce downtime and increase mission consistency."
+            },
+            {
+                "name": "Emergency Retreat",
+                "type": "Ability",
+                "rank": "B",
+                "cooldown": "45s",
+                "desc": "Triggers a prepared fallback route and signals allies to disengage, reducing casualties during high-risk situations."
+            },
+            {
+                "name": "Composure",
+                "type": "Passive",
+                "rank": "B",
+                "cooldown": "—",
+                "desc": "Maintains decision clarity under fear and pressure, improving reaction timing for non-combat objectives."
+            },
+            {
+                "notes": "Skills evolve through repeated raid operations, leadership duties and exposure to high-rank combat scenarios. Higher ranks improve efficiency, range and team synergy."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Support Team",
+                "role": "Logistics / Medical Supply",
+                "rank": "C",
+                "state": "Active"
+            },
+            {
+                "name": "Transport Unit",
+                "role": "Vehicles / Extraction",
+                "rank": "C",
+                "state": "Active"
+            },
+            {
+                "name": "Office Staff",
+                "role": "Administration",
+                "rank": "D",
+                "state": "In Reserve"
+            },
+            {
+                "notes": "Operational units focus on supply chains, extraction and mission continuity. While not combat-oriented, they ensure stable raid execution and rapid recovery."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Standard Hunter Dagger",
+                "type": "Weapon",
+                "rarity": "C",
+                "bonus": "+Self-Defense",
+                "desc": "A basic hunter-grade dagger meant for emergency situations. Practical and lightweight, used primarily for survival rather than offense."
+            },
+            {
+                "name": "Reinforced Tactical Vest",
+                "type": "Equipment",
+                "rarity": "B",
+                "bonus": "+Defense / +Mobility",
+                "desc": "A flexible protective vest designed to reduce injury risk while allowing fast movement during evacuations and support tasks."
+            },
+            {
+                "name": "Communication Earpiece",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Team Coordination",
+                "desc": "Maintains stable comms within raid zones and improves response speed through clearer callouts and real-time updates."
+            },
+            {
+                "name": "Emergency Supply Kit",
+                "type": "Accessory",
+                "rarity": "C",
+                "bonus": "+Recovery / +Stability",
+                "desc": "A compact kit containing recovery items and essentials that reduces downtime and increases survivability during unexpected threats."
+            },
+            {
+                "notes": "Equipped items emphasize survivability, coordination and operational stability. Gear synergy improves team performance by reducing chaos and maintaining clear command flow."
+            }
+        ]
+    },
+    "goonghee": {
+        "name": "Go Gun-Hee",
+        "koreanName": "(고건희)",
+        "title": "Association Chairman",
+        "color": "#1B1B1E",
+        "accentColor": "#0E0F12",
+        "backgroundKey": "goonghee",
+        "affiliation": {
+            "faction": "Hunters Association",
+            "align": "Official",
+            "badge": "Association",
+            "notes": "Chairman of the Korean Hunters Association, responsible for national-level hunter operations, policy decisions, and crisis response coordination."
+        },
+        "about": {
+            "desc1": "is the Chairman of the Korean Hunters Association. Despite his age and failing health, he is widely respected for his leadership, judgment, and unwavering dedication to protecting humanity.",
+            "desc2": "In his prime, he was an exceptionally powerful hunter. Even after retiring from the front lines, his presence, authority, and resolve continue to influence the hunter world and the balance of power within Korea."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Chairman",
+            "stats": {
+                "strength": 70,
+                "agility": 58,
+                "perception": 92,
+                "vitality": 54,
+                "intelligence": 95
+            },
+            "notes": "Status values reflect experience, strategy and authority more than raw combat output. Perception and intelligence remain exceptionally high, while physical stats are limited by age and health."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Shadow Monarch",
+                "type": "Respected",
+                "affinity": 90
+            },
+            {
+                "name": "Cha Hae-In",
+                "role": "S-Rank Hunter",
+                "type": "Trusted",
+                "affinity": 78
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Institution",
+                "type": "Bound",
+                "affinity": 100
+            },
+            {
+                "name": "National Level Hunters",
+                "role": "Global Powers",
+                "type": "Neutral",
+                "affinity": 64
+            },
+            {
+                "notes": "Relationship data is derived from trust, duty, political alignment and system-recognized influence. Chairman-level ties prioritize stability and protection over personal bonds."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Authority Command",
+                "type": "Ability",
+                "rank": "A",
+                "cooldown": "—",
+                "desc": "Stabilizes operations through decisive commands, improving coordination and reducing panic during crisis events."
+            },
+            {
+                "name": "Hunter Assessment",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Accurately evaluates hunter potential and threat levels through experience and sharpened perception."
+            },
+            {
+                "name": "Negotiation Protocol",
+                "type": "Skill",
+                "rank": "A",
+                "cooldown": "—",
+                "desc": "De-escalates conflicts between guilds and authorities, maintaining national stability and operational continuity."
+            },
+            {
+                "name": "Last Stand Resolve",
+                "type": "Passive",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "A resolute mindset that reinforces composure under extreme pressure, preventing hesitation in critical decisions."
+            },
+            {
+                "notes": "Skills evolve through leadership, crisis experience and responsibility. High ranks reflect influence, judgment and the ability to steer outcomes even without direct combat."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Association Task Force",
+                "role": "Rapid Response",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Guild Liaison Unit",
+                "role": "Coordination",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "name": "Emergency Support Unit",
+                "role": "Evacuation / Logistics",
+                "rank": "B",
+                "state": "In Reserve"
+            },
+            {
+                "notes": "Units operate under Association authority. Rapid response handles incidents first, while liaison and support ensure coordination, public safety and continuity during dungeon emergencies."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Chairman’s Seal",
+                "type": "Accessory",
+                "rarity": "A",
+                "bonus": "+Authority / +Clearance",
+                "desc": "A symbol of national authority enabling command over Association resources and high-level operational access."
+            },
+            {
+                "name": "Secure Comms Device",
+                "type": "Equipment",
+                "rarity": "A",
+                "bonus": "+Coordination",
+                "desc": "Encrypted communications for real-time crisis management, guild coordination and emergency directives."
+            },
+            {
+                "name": "Protective Suit",
+                "type": "Equipment",
+                "rarity": "B",
+                "bonus": "+Defense",
+                "desc": "Designed for safety during on-site inspections and emergency visits, prioritizing protection over mobility."
+            },
+            {
+                "name": "Medical Support Kit",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Stability",
+                "desc": "Emergency supplies intended for survival and stabilization during unexpected incidents."
+            },
+            {
+                "notes": "Equipped items emphasize authority, coordination and survivability. Gear supports leadership roles and crisis presence rather than front-line combat performance."
+            }
+        ]
+    },
+    "leejoohee": {
+        "name": "Lee Joo-Hee",
+        "koreanName": "(이주희)",
+        "title": "B-Rank Healer",
+        "color": "#244A5A",
+        "accentColor": "#142832",
+        "backgroundKey": "leejoohee",
+        "affiliation": {
+            "faction": "Hunters Association",
+            "align": "Independent",
+            "badge": "Association",
+            "notes": "A registered healer operating under the Hunters Association network, supporting raid teams with recovery magic and emergency treatment during dungeon operations."
+        },
+        "about": {
+            "desc1": "is a B-Rank healer known for her calm presence and reliable recovery magic. She was part of early raid parties and often provided medical support during dungeon breaks and field missions.",
+            "desc2": "After experiencing severe trauma in high-risk raids, she became more cautious about frontline operations. Despite this, her healing skills and dedication remain valuable to hunters who rely on support roles to survive."
+        },
+        "status": {
+            "level": "???",
+            "rank": "B",
+            "class": "Healer",
+            "stats": {
+                "strength": 34,
+                "agility": 48,
+                "perception": 72,
+                "vitality": 55,
+                "intelligence": 84
+            },
+            "notes": "Status values prioritize mana control, awareness and recovery efficiency. Physical attributes are lower than combat hunters, but intelligence and perception support precise healing and threat awareness."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Hunter / Ally",
+                "type": "Ally",
+                "affinity": 82
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Official Authority",
+                "type": "Bound",
+                "affinity": 74
+            },
+            {
+                "name": "Raid Team Members",
+                "role": "Supported Hunters",
+                "type": "Neutral",
+                "affinity": 70
+            },
+            {
+                "name": "Dungeon Operations",
+                "role": "High-Risk Duty",
+                "type": "Respected",
+                "affinity": 68
+            },
+            {
+                "notes": "Relationship data is derived from shared raids, medical support records and system-recognized cooperation."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Rapid Heal",
+                "type": "Skill",
+                "rank": "B",
+                "cooldown": "6s",
+                "desc": "Restores a moderate amount of HP to a target. Optimized for repeated use during extended fights."
+            },
+            {
+                "name": "Emergency Recovery",
+                "type": "Ability",
+                "rank": "A",
+                "cooldown": "25s",
+                "desc": "A high-output healing burst for critical injuries. Stabilizes allies at low HP and prevents collapse."
+            },
+            {
+                "name": "Barrier Blessing",
+                "type": "Skill",
+                "rank": "B",
+                "cooldown": "18s",
+                "desc": "Applies a short-duration protective barrier that reduces incoming damage and improves survivability."
+            },
+            {
+                "name": "Mana Sense",
+                "type": "Passive",
+                "rank": "B",
+                "cooldown": "—",
+                "desc": "Enhances detection of unstable mana signatures, helping identify danger spikes and wounded allies faster."
+            },
+            {
+                "notes": "Skills scale with mana control and mental stability. Consistent casting and calm focus improve efficiency and reduce fatigue over long raids."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Support Pair",
+                "role": "Healer + Guard",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "name": "Association Escort",
+                "role": "Safety Detail",
+                "rank": "C",
+                "state": "In Reserve"
+            },
+            {
+                "name": "Field Med Unit",
+                "role": "Emergency Response",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "notes": "Healers rarely deploy alone. Escort and med units rotate based on raid difficulty, ensuring recovery support and safe extraction when conditions deteriorate."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Healer’s Staff",
+                "type": "Weapon",
+                "rarity": "B",
+                "bonus": "+Healing Output",
+                "desc": "A catalyst designed to stabilize mana flow, improving recovery efficiency and reducing casting strain."
+            },
+            {
+                "name": "Association Field Kit",
+                "type": "Equipment",
+                "rarity": "B",
+                "bonus": "+Emergency Aid",
+                "desc": "Standardized medical kit for dungeon teams, used when magic alone is not enough or mana is depleted."
+            },
+            {
+                "name": "Mana Stabilizer Charm",
+                "type": "Accessory",
+                "rarity": "A",
+                "bonus": "+Mana Control",
+                "desc": "Improves fine control over mana distribution, enabling faster healing cycles and safer barrier deployment."
+            },
+            {
+                "name": "Recovery Ring",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Stamina Recovery",
+                "desc": "Reduces fatigue from repeated casting, helping maintain output during prolonged raid engagements."
+            },
+            {
+                "notes": "Equipped items focus on stability, recovery throughput and endurance. High control improves consistency and reduces the risk of mana backlash under pressure."
+            }
+        ]
+    },
+    "songchiyul": {
+        "name": "Song Chi-Yul",
+        "koreanName": "(송치열)",
+        "title": "C-Rank Hunter",
+        "color": "#5A1F1F",
+        "accentColor": "#2A0E0E",
+        "backgroundKey": "songchiyul",
+        "affiliation": {
+            "faction": "Hunters Association",
+            "align": "Independent",
+            "badge": "Association",
+            "notes": "A veteran C-Rank hunter registered with the Hunters Association. Known for discipline, survival instincts and a strong sense of responsibility toward less experienced hunters."
+        },
+        "about": {
+            "desc1": "is a C-Rank hunter who often takes on leadership duties within lower-rank raid teams. He is pragmatic, cautious and prioritizes the safety of the party over reckless gains.",
+            "desc2": "He participated in early dungeon operations alongside Sung Jin-Woo, including dangerous raids that left lasting impressions. His experience and judgment make him a stabilizing presence in unstable situations."
+        },
+        "status": {
+            "level": "???",
+            "rank": "C",
+            "class": "Swordsman",
+            "stats": {
+                "strength": 58,
+                "agility": 54,
+                "perception": 76,
+                "vitality": 64,
+                "intelligence": 60
+            },
+            "notes": "Status values reflect a veteran fighter with balanced physical capability and sharpened awareness. Perception is notably high due to experience and a survival-focused mindset."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Hunter / Ally",
+                "type": "Respected",
+                "affinity": 74
+            },
+            {
+                "name": "Lee Joo-Hee",
+                "role": "B-Rank Healer",
+                "type": "Ally",
+                "affinity": 72
+            },
+            {
+                "name": "Lower-Rank Raid Teams",
+                "role": "Party Members",
+                "type": "Bound",
+                "affinity": 78
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Official Authority",
+                "type": "Neutral",
+                "affinity": 66
+            },
+            {
+                "notes": "Relationship data is derived from shared raids, trust formed under pressure and system-recognized cooperation within dungeon operations."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Guard Stance",
+                "type": "Skill",
+                "rank": "C",
+                "cooldown": "12s",
+                "desc": "Adopts a defensive posture that reduces incoming damage for a short time, improving survivability in close combat."
+            },
+            {
+                "name": "Precision Slash",
+                "type": "Skill",
+                "rank": "C",
+                "cooldown": "10s",
+                "desc": "A controlled sword strike aimed at weak points, trading raw power for accuracy and consistency."
+            },
+            {
+                "name": "Battle Awareness",
+                "type": "Passive",
+                "rank": "B",
+                "cooldown": "—",
+                "desc": "Improves reaction timing and threat reading based on combat experience, increasing chances of survival in chaotic encounters."
+            },
+            {
+                "name": "Emergency Command",
+                "type": "Ability",
+                "rank": "C",
+                "cooldown": "25s",
+                "desc": "Issues a short directive to regroup or retreat, briefly improving team cohesion and reducing panic."
+            },
+            {
+                "notes": "Skills evolve through repeated raids and survival experience. Higher effectiveness comes from discipline, timing and calm decision-making rather than overwhelming power."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Frontline Pair",
+                "role": "Tank / Swordsman",
+                "rank": "C",
+                "state": "Active"
+            },
+            {
+                "name": "Support Line",
+                "role": "Healer / Utility",
+                "rank": "C",
+                "state": "Active"
+            },
+            {
+                "name": "Reserve Members",
+                "role": "Backup Hunters",
+                "rank": "D",
+                "state": "In Reserve"
+            },
+            {
+                "notes": "Squad composition is practical and survival-oriented. Teams prioritize stability, safe positioning and controlled engagements over speed-clearing dungeons."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Standard Hunter Sword",
+                "type": "Weapon",
+                "rarity": "C",
+                "bonus": "+Consistency",
+                "desc": "A reliable blade suited for repeated dungeon runs. Balanced weight and durability for sustained combat."
+            },
+            {
+                "name": "Reinforced Guard Gloves",
+                "type": "Equipment",
+                "rarity": "C",
+                "bonus": "+Grip / +Defense",
+                "desc": "Improves weapon control and reduces injury risk during close-range clashes."
+            },
+            {
+                "name": "Basic Protection Vest",
+                "type": "Equipment",
+                "rarity": "D",
+                "bonus": "+Defense",
+                "desc": "A minimal protective vest used by lower-rank hunters to reduce the impact of minor hits and debris."
+            },
+            {
+                "name": "Stamina Tonic Pouch",
+                "type": "Accessory",
+                "rarity": "D",
+                "bonus": "+Stamina Recovery",
+                "desc": "Carries emergency recovery tonics to maintain endurance during prolonged encounters."
+            },
+            {
+                "notes": "Equipped items emphasize reliability, safety and endurance. Gear is chosen for consistent dungeon survival rather than maximizing burst damage."
+            }
+        ]
+    },
+    "minbyunggyu": {
+        "name": "Min Byung-Gyu",
+        "koreanName": "(민병규)",
+        "title": "S-Rank Hunter",
+        "color": "#2E7D32",
+        "accentColor": "#1B5E20",
+        "backgroundKey": "minbyunggyu",
+        "affiliation": {
+            "faction": "Hunters Association",
+            "align": "Affiliated",
+            "badge": "Hunters",
+            "notes": "An association that coordinates the activities of hunters and manages the response to dungeon threats."
+        },
+        "about": {
+            "desc1": "is a leading member of the Hunters Association, renowned for his healing skills and combat experience. He is ranked as the 4th S-Rank Hunter in South Korea.",
+            "desc2": "Byung-Gyu consistently participates in major raids, possessing a keen healing ability that keeps his teammates in fighting shape."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Healer",
+            "stats": {
+                "strength": 68,
+                "agility": 75,
+                "perception": 88,
+                "vitality": 86,
+                "intelligence": 95
+            },
+            "notes": "Status values reflect extensive training in both healing and support, with high intelligence and vitality enabling effective recovery abilities."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Shadow Monarch",
+                "type": "Respected",
+                "affinity": 85
+            },
+            {
+                "name": "Go Gun-Hee",
+                "role": "Association Chairman",
+                "type": "Ally",
+                "affinity": 82
+            },
+            {
+                "name": "Cha Hae-In",
+                "role": "Vice-Guild Master",
+                "type": "Comrade",
+                "affinity": 78
+            },
+            {
+                "name": "Other S-Rank Hunters",
+                "role": "Fellow Healers",
+                "type": "Neutral",
+                "affinity": 70
+            },
+            {
+                "notes": "Relationship data indicates trust, collaborative missions, and strategic cooperation in raids."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Sustain",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "20s",
+                "desc": "Provides continuous healing over time to allies, enhancing their durability in battle."
+            },
+            {
+                "name": "Battlefield Awareness",
+                "type": "Passive",
+                "rank": "A",
+                "cooldown": "—",
+                "desc": "Increases situational awareness, allowing better prediction of enemy movements and attack patterns."
+            },
+            {
+                "name": "Healing Surge",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "15s",
+                "desc": "Instantly restores a large amount of health to an ally, crucial during critical moments."
+            },
+            {
+                "name": "Protective Barrier",
+                "type": "Ability",
+                "rank": "A",
+                "cooldown": "12s",
+                "desc": "Creates a temporary shield on an ally, absorbing damage for a brief period."
+            },
+            {
+                "notes": "Skills evolve with experience and collaboration with other hunters, signaling development and mastery of healing techniques."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Support Unit",
+                "role": "Healers / Buffers",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Frontline Assault Unit",
+                "role": "Assault Hunters",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "name": "Recon Team",
+                "role": "Intelligence Gatherers",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "notes": "Troop formations adapt based on mission objectives, emphasizing teamwork and strategic support roles."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Healing Staff",
+                "type": "Weapon",
+                "rarity": "S",
+                "bonus": "+Healing Power / +Support",
+                "desc": "A staff that amplifies healing abilities and enhances the effectiveness of support skills."
+            },
+            {
+                "name": "Protective Armor",
+                "type": "Equipment",
+                "rarity": "A",
+                "bonus": "+Defense / +Durability",
+                "desc": "Designed for the mobility needed in tactical situations, while providing essential protection."
+            },
+            {
+                "name": "Endurance Boots",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Movement Speed / +Stamina",
+                "desc": "Enhances movement capabilities, allowing for quick repositioning during combat."
+            },
+            {
+                "name": "Combat Focus Ring",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Focus / +Concentration",
+                "desc": "Improves concentration, helping maintain clarity under pressure during tactical operations."
+            },
+            {
+                "notes": "Equipped items enhance combat effectiveness and support high-stakes decision-making in dynamic battlefields."
+            }
+        ]
+    },
+    "baekyoonho": {
+        "name": "Baek Yoon-Ho",
+        "koreanName": "(백윤호)",
+        "title": "S-Rank Hunter",
+        "color": "#8F5E00",
+        "accentColor": "#5C2F00",
+        "backgroundKey": "baekyoonho",
+        "affiliation": {
+            "faction": "Hunters Guild",
+            "align": "Independent",
+            "badge": "Hunters",
+            "notes": "A prestigious guild composed of elite hunters tasked with protecting humanity from dungeon threats and magical disasters."
+        },
+        "about": {
+            "desc1": "is one of the top hunters within the Hunters Guild, recognized for his exceptional strength and leadership skills. He is ranked as the 3rd S-Rank Hunter in South Korea.",
+            "desc2": "Yoon-Ho played a crucial role in numerous high-stakes raids and is known for his ability to inspire and rally his teammates."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Warrior",
+            "stats": {
+                "strength": 92,
+                "agility": 80,
+                "perception": 88,
+                "vitality": 90,
+                "intelligence": 75
+            },
+            "notes": "Status values reflect the elite training and experience of a top-tier hunter. His strength and vitality contribute significantly to his frontline capability."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Shadow Monarch",
+                "type": "Ally",
+                "affinity": 90
+            },
+            {
+                "name": "Go Gun-Hee",
+                "role": "Association Chairman",
+                "type": "Respected",
+                "affinity": 85
+            },
+            {
+                "name": "Cha Hae-In",
+                "role": "Vice-Guild Master",
+                "type": "Comrade",
+                "affinity": 82
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Official Authority",
+                "type": "Bound",
+                "affinity": 78
+            },
+            {
+                "notes": "Relationship data is derived from trust, teamwork, and shared victories in battles."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Earth Shatter",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "25s",
+                "desc": "A powerful ground slam that causes shockwaves, stunning enemies in close proximity."
+            },
+            {
+                "name": "Battle Cry",
+                "type": "Passive",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Greatly enhances the morale and fighting capabilities of nearby allies, boosting their performance."
+            },
+            {
+                "name": "Cleave",
+                "type": "Skill",
+                "rank": "A",
+                "cooldown": "12s",
+                "desc": "A wide-swinging attack that deals damage to multiple enemies in front of him."
+            },
+            {
+                "name": "Shield Wall",
+                "type": "Ability",
+                "rank": "A",
+                "cooldown": "15s",
+                "desc": "Forms a temporary barrier that blocks incoming attacks for himself and nearby allies."
+            },
+            {
+                "notes": "Skills develop with experience and combat scenarios, improving execution and impact in battle."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Assault Unit",
+                "role": "Frontline Hunters",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Support Unit",
+                "role": "Healers / Buffers",
+                "rank": "B",
+                "state": "In Reserve"
+            },
+            {
+                "name": "Guardian Unit",
+                "role": "Defensive Specialists",
+                "rank": "S",
+                "state": "Active"
+            },
+            {
+                "notes": "Troop formations are adaptable based on mission requirements and strategies."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Titan's Greatsword",
+                "type": "Weapon",
+                "rarity": "S",
+                "bonus": "+Damage / +Stun",
+                "desc": "A hefty blade designed for immense damage and staggering enemies with every strike."
+            },
+            {
+                "name": "Armor of the Unyielding",
+                "type": "Equipment",
+                "rarity": "A",
+                "bonus": "+Defense / +Stamina",
+                "desc": "Provides superior protection while enabling the wearer to maintain stamina in prolonged battles."
+            },
+            {
+                "name": "Warrior's Ring",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Attack Power",
+                "desc": "Enhances the user's physical attacks and boosts combat effectiveness."
+            },
+            {
+                "name": "Focus Pendant",
+                "type": "Accessory",
+                "rarity": "B",
+                "bonus": "+Focus / +Vitality",
+                "desc": "Improves concentration during combat, allowing for precise strikes and increased health."
+            },
+            {
+                "notes": "Equipped items highlight strength, durability, and effectiveness during combat."
+            }
+        ]
+    },
+    "kangtaeshik": {
+        "name": "Kang Tae-Shik",
+        "koreanName": "(강태식)",
+        "title": "B-Rank Hunter / Assassin",
+        "color": "#3A1F5C",
+        "accentColor": "#160B24",
+        "backgroundKey": "kangtaeshik",
+        "affiliation": {
+            "faction": "Hunters Association",
+            "align": "Rogue / Corrupt",
+            "badge": "Association",
+            "notes": "Officially registered under the Hunters Association and often assigned to inspection details, but operates with hidden motives and compromised ethics."
+        },
+        "about": {
+            "desc1": "is a B-Rank Hunter known for silent movement and sudden lethal strikes. He presents himself as a reliable Association operative, but hides a predatory nature behind a calm facade.",
+            "desc2": "He specializes in ambush tactics, exploiting confusion during dungeon operations to isolate targets. His fighting style prioritizes speed, intimidation and finishing blows before opponents can react."
+        },
+        "status": {
+            "level": "???",
+            "rank": "B",
+            "class": "Assassin",
+            "stats": {
+                "strength": 62,
+                "agility": 88,
+                "perception": 78,
+                "vitality": 58,
+                "intelligence": 70
+            },
+            "notes": "Status values reflect an assassin-oriented build: high agility and perception for stealth approaches and decisive openings, with lower vitality due to reliance on evasion."
+        },
+        "relationships": [
+            {
+                "name": "Hunters Association",
+                "role": "Official Authority",
+                "type": "Affiliated",
+                "affinity": 64
+            },
+            {
+                "name": "Inspection Team",
+                "role": "Field Operatives",
+                "type": "Utilized",
+                "affinity": 52
+            },
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Unknown Variable",
+                "type": "Threatened",
+                "affinity": 18
+            },
+            {
+                "name": "Dungeon Raid Parties",
+                "role": "Temporary Allies",
+                "type": "Disposable",
+                "affinity": 30
+            },
+            {
+                "notes": "Relationship data reflects opportunistic bonds and tactical alignment rather than trust. Affinity fluctuates based on leverage, secrecy and perceived risk."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Shadow Step",
+                "type": "Skill",
+                "rank": "B",
+                "cooldown": "10s",
+                "desc": "A short-range burst movement that closes distance instantly, enabling surprise attacks and rapid repositioning."
+            },
+            {
+                "name": "Killing Intent",
+                "type": "Ability",
+                "rank": "B",
+                "cooldown": "20s",
+                "desc": "Projects overwhelming pressure to destabilize weaker opponents, creating openings through fear and hesitation."
+            },
+            {
+                "name": "Vital Point Strike",
+                "type": "Skill",
+                "rank": "B",
+                "cooldown": "14s",
+                "desc": "A precise stab aimed at critical points to inflict heavy damage and end fights quickly if the opening is clean."
+            },
+            {
+                "name": "Silent Execution",
+                "type": "Passive",
+                "rank": "B",
+                "cooldown": "—",
+                "desc": "Reduces movement noise and improves concealment during combat, increasing first-hit advantage in chaotic encounters."
+            },
+            {
+                "notes": "Skills emphasize stealth, tempo control and decisive finishing. Effectiveness increases when the target is isolated or distracted by dungeon threats."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Inspection Detail",
+                "role": "Association Field Unit",
+                "rank": "B",
+                "state": "Active"
+            },
+            {
+                "name": "Support Handlers",
+                "role": "Logistics / Coordination",
+                "rank": "C",
+                "state": "In Reserve"
+            },
+            {
+                "name": "Extraction Unit",
+                "role": "Recovery / Cleanup",
+                "rank": "C",
+                "state": "Active"
+            },
+            {
+                "notes": "Operational squads are structured for dungeon oversight and incident handling. Extraction and cleanup keep operations discreet and reduce attention on irregular outcomes."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Twin Daggers",
+                "type": "Weapon",
+                "rarity": "B",
+                "bonus": "+Attack Speed / +Bleed Chance",
+                "desc": "Lightweight blades designed for rapid multi-hit combos and critical point targeting in close quarters."
+            },
+            {
+                "name": "Dark Tactical Cloak",
+                "type": "Equipment",
+                "rarity": "B",
+                "bonus": "+Stealth / +Evasion",
+                "desc": "A reinforced cloak that dampens sound and breaks outlines in low light, improving ambush potential."
+            },
+            {
+                "name": "Poison Vial",
+                "type": "Accessory",
+                "rarity": "C",
+                "bonus": "+Damage Over Time",
+                "desc": "A compact toxin option used to weaken targets during pursuit or to force mistakes under pressure."
+            },
+            {
+                "name": "Silent Boots",
+                "type": "Accessory",
+                "rarity": "C",
+                "bonus": "+Noise Reduction",
+                "desc": "Specialized footwear that minimizes footfall sound, enabling closer approach and cleaner disengage routes."
+            },
+            {
+                "notes": "Equipped items prioritize concealment, speed and assassination reliability. Gear synergy favors first-hit advantage and rapid exits over sustained combat."
+            }
+        ]
+    },
+    "beru": {
+        "name": "Beru",
+        "koreanName": "(베루)",
+        "title": "Shadow Ant King",
+        "color": "#0A1626",
+        "accentColor": "#030812",
+        "backgroundKey": "beru",
+        "affiliation": {
+            "faction": "Shadow Army",
+            "align": "Absolute Loyalty",
+            "badge": "Shadow Monarch",
+            "notes": "An elite shadow soldier resurrected by the Shadow Monarch. Beru serves as one of the highest-ranking commanders within the Shadow Army."
+        },
+        "about": {
+            "desc1": "is a former Ant King born on Jeju Island and later resurrected as a shadow by Sung Jin-Woo. Even in death, his overwhelming power and ruthless instincts persist, now bound by absolute loyalty.",
+            "desc2": "Beru possesses extreme combat instincts, rapid adaptation and a fanatical devotion to his master. He delights in battle and seeks constant validation through strength and obedience."
+        },
+        "status": {
+            "level": "???",
+            "rank": "S",
+            "class": "Shadow Commander",
+            "stats": {
+                "strength": 98,
+                "agility": 92,
+                "perception": 90,
+                "vitality": 96,
+                "intelligence": 78
+            },
+            "notes": "Status values reflect an apex predator reborn as a shadow. Strength and vitality far exceed standard S-Rank thresholds, enabling prolonged domination in high-level engagements."
+        },
+        "relationships": [
+            {
+                "name": "Sung Jin-Woo",
+                "role": "Shadow Monarch",
+                "type": "Absolute Loyalty",
+                "affinity": 100
+            },
+            {
+                "name": "Shadow Army",
+                "role": "Fellow Shadows",
+                "type": "Commanding",
+                "affinity": 92
+            },
+            {
+                "name": "Hunters Association",
+                "role": "Former Enemy",
+                "type": "Hostile",
+                "affinity": 8
+            },
+            {
+                "name": "Jeju Island Raid Forces",
+                "role": "Eradicated Opponents",
+                "type": "Extinct",
+                "affinity": 0
+            },
+            {
+                "notes": "Relationship data emphasizes dominance hierarchies and master-servant bonds. Affinity values represent loyalty and perceived authority rather than emotional attachment."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Devour",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Consumes defeated enemies to recover vitality and strengthen shadow energy reserves."
+            },
+            {
+                "name": "Enhanced Regeneration",
+                "type": "Passive",
+                "rank": "S",
+                "cooldown": "—",
+                "desc": "Rapidly restores damage over time, allowing sustained combat even against superior numbers."
+            },
+            {
+                "name": "Razor Claws",
+                "type": "Skill",
+                "rank": "S",
+                "cooldown": "6s",
+                "desc": "A brutal close-range assault using sharpened claws capable of tearing through high-grade defenses."
+            },
+            {
+                "name": "Killing Aura",
+                "type": "Ability",
+                "rank": "S",
+                "cooldown": "20s",
+                "desc": "Releases overwhelming pressure that paralyzes weaker enemies and destabilizes even high-rank opponents."
+            },
+            {
+                "notes": "Beru's abilities prioritize overwhelming force and battlefield terror. Shadow-enhanced traits allow relentless offense without fear of attrition."
+            }
+        ],
+        "troops": [
+            {
+                "name": "Elite Shadow Ants",
+                "role": "Assault Unit",
+                "rank": "S",
+                "state": "Active"
+            },
+            {
+                "name": "Shadow Vanguard",
+                "role": "Shock Troops",
+                "rank": "A",
+                "state": "Active"
+            },
+            {
+                "name": "Shadow Reserves",
+                "role": "Reinforcement Units",
+                "rank": "A",
+                "state": "In Reserve"
+            },
+            {
+                "notes": "Commanded units specialize in overwhelming frontal assaults. Beru leads from the front, amplifying troop morale through sheer presence."
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Shadow Claws",
+                "type": "Natural Weapon",
+                "rarity": "S",
+                "bonus": "+Piercing / +Bleed",
+                "desc": "Manifestations of condensed shadow energy capable of slicing through reinforced armor and magical barriers."
+            },
+            {
+                "name": "Carapace Armor",
+                "type": "Natural Armor",
+                "rarity": "S",
+                "bonus": "+Defense / +Regeneration",
+                "desc": "A hardened exoskeleton reinforced by shadow energy, providing exceptional resistance and durability."
+            },
+            {
+                "name": "Shadow Core",
+                "type": "Internal Relic",
+                "rarity": "S",
+                "bonus": "+Shadow Energy Output",
+                "desc": "A core of pure shadow essence that fuels Beru’s immense power and sustains his existence."
+            },
+            {
+                "name": "Predator Instinct",
+                "type": "Passive Trait",
+                "rarity": "S",
+                "bonus": "+Target Tracking",
+                "desc": "Heightens awareness of enemy movement, weakness and intent, ensuring near-perfect pursuit efficiency."
+            },
+            {
+                "notes": "Beru relies on innate weapons and shadow-infused traits rather than external equipment. His power scales directly with the Shadow Monarch’s strength."
+            }
+        ]
+    }
+}

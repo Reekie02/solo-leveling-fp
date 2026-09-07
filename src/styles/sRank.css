@@ -1,0 +1,25 @@
+.s-rank {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.s-letter {
+    -webkit-text-stroke: 1.5px #fff;
+    background: linear-gradient(90deg, #b0a442 50%, #3b3811 40%, #b0a442 30%, #3b3811);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    font-family: 'Neucha', sans-serif;
+    font-weight: 100;
+}
+
+.rank-text {
+    font-family: 'Neucha', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.85);
+}

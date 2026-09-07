@@ -1,0 +1,226 @@
+.active {
+    font-size: 52px;
+    font-weight: 900;
+    position: relative;
+    cursor: pointer;
+
+    color: #fff;
+    text-shadow:
+        0 0 8px rgba(255, 255, 255, 0.8),
+        0 0 16px rgba(204, 204, 204, 0.7);
+
+    transition:
+        font-size .35s ease,
+        text-shadow .35s ease,
+        transform .35s ease;
+
+    animation: sl-active .35s cubic-bezier(.25, .46, .45, .94);
+}
+
+
+.active::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffe9b0 0%, #ffbe3d 60%, #f2a400 100%);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: -20px;
+    opacity: 0;
+    transform: translate(-10px, -50%) scale(0.3);
+    animation: sl-dot .35s forwards cubic-bezier(.25, .46, .45, .94);
+}
+
+.not-active {
+    color: #aaa;
+    font-size: 26px;
+    cursor: pointer;
+    transition:
+        font-size .35s ease,
+        color .35s ease,
+        text-shadow .35s ease,
+        transform .35s ease;
+}
+
+
+
+
+@keyframes sl-active {
+    0% {
+        opacity: 0;
+        transform: translateX(10px) scale(0.9);
+        text-shadow: none;
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-3px) scale(1.03);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+
+@keyframes sl-dot {
+    0% {
+        opacity: 0;
+        transform: translate(-10px, -50%) scale(0.3);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translate(-4px, -50%) scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, -50%) scale(1);
+    }
+}
+
+.system-menu {
+    user-select: none;
+}
+
+.system-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    padding: 14px 18px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    letter-spacing: 0.35em;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: all 0.35s cubic-bezier(.25, .46, .45, .94);
+}
+
+.system-index {
+    font-size: 11px;
+    opacity: 0.45;
+    min-width: 28px;
+}
+
+.system-label {
+    flex: 1;
+    text-align: left;
+}
+
+/* cursore laterale */
+.system-cursor {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.system-item.active {
+    color: #e6f7ff;
+    font-weight: 600;
+    border-color: rgba(255, 255, 255, 0.45);
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.15) 60%,
+            rgba(204, 204, 204, 0.05),
+            transparent);
+}
+
+.system-open .system-item {
+    animation: systemItemIn 0.35s ease-out both;
+}
+
+.system-open li:nth-child(1) .system-item {
+    animation-delay: 0.15s;
+}
+
+.system-open li:nth-child(2) .system-item {
+    animation-delay: 0.30s;
+}
+
+.system-open li:nth-child(3) .system-item {
+    animation-delay: 0.45s;
+}
+
+.system-open li:nth-child(4) .system-item {
+    animation-delay: 0.60s;
+}
+
+.system-open li:nth-child(5) .system-item {
+    animation-delay: 0.75s;
+}
+
+.system-open li:nth-child(6) .system-item {
+    animation-delay: 0.90s;
+}
+
+.system-open li:nth-child(7) .system-item {
+    animation-delay: 1.05s;
+}
+
+@keyframes systemItemIn {
+    from {
+        opacity: 0;
+        transform: translateX(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.system-close .system-item {
+    animation: systemItemOut 0.25s ease-in both;
+}
+
+.system-close li:nth-child(1) .system-item {
+    animation-delay: 0.40s;
+}
+
+.system-close li:nth-child(2) .system-item {
+    animation-delay: 0.35s;
+}
+
+.system-close li:nth-child(3) .system-item {
+    animation-delay: 0.30s;
+}
+
+.system-close li:nth-child(4) .system-item {
+    animation-delay: 0.25s;
+}
+
+.system-close li:nth-child(5) .system-item {
+    animation-delay: 0.20s;
+}
+
+.system-close li:nth-child(6) .system-item {
+    animation-delay: 0.15s;
+}
+
+.system-close li:nth-child(7) .system-item {
+    animation-delay: 0.10s;
+}
+
+@keyframes systemItemOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(12px);
+    }
+}
