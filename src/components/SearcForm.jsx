@@ -84,10 +84,6 @@ const SearchForm = ({ formRef, character, characters = [], onSelect }) => {
         };
     }, [open, results, activeIndex]);
 
-    useEffect(() => {
-        console.log("characters:", characters);
-    }, [characters]);
-
     const handleSelect = (c) => {
         setQuery("");
         setExpanded(false);

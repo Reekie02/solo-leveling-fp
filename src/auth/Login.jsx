@@ -1,19 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState } from "react";
 import "../styles/auth.css";
 import { Link, useNavigate } from "react-router-dom";

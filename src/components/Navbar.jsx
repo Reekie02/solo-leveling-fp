@@ -22,7 +22,6 @@ const Navbar = () => {
     const [ham, setHam] = useState(false)
     const [hamVisible, setHamVisible] = useState(false);
 
-    console.log(allCharacters);
     useEffect(() => {
         if (ham) setHamVisible(true);
     }, [ham]);
@@ -64,7 +63,6 @@ const Navbar = () => {
 
 
     const { user, authLoading, signOut } = useAuth();
-    console.log("AUTH DEBUG:", { authLoading, user });
     const [idFlash, setIdFlash] = useState(false);
 
     useEffect(() => {

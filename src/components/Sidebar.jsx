@@ -1,4 +1,3 @@
-// import React, { useRef } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../styles/sidebar.css'
 import { CircleAlert } from 'lucide-react'
