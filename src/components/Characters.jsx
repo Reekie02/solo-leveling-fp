@@ -6,7 +6,7 @@ import goIcon from '../assets/GoIcon2.png'
 import leeIcon from '../assets/leeIcon2.png'
 import songIcon from '../assets/songIcon2.png'
 import minIcon from '../assets/ByungGyuIcon.png'
-import baekIcon from '../assets/BaekIcon.png'
+import baekIcon from '../assets/baekIcon.png'
 import kangIcon from '../assets/kangIcon.webp'
 import beruIcon from '../assets/beruIcon.png'
 
